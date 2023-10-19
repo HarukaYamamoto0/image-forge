@@ -1,0 +1,39 @@
+{
+	"name": "image-forge",
+	"version": "1.0.1",
+	"description": "A powerful tool for creating custom images from templates, automating the graphic design process",
+	"main": "index.js",
+	"scripts": {},
+	"files": [
+		"index.js",
+		"package.json",
+		"README.md",
+		"LICENSE"
+	],
+	"keywords": [
+		"image",
+		"generation",
+		"template",
+		"design",
+		"automation",
+		"rendering",
+		"custom",
+		"creation",
+		"npm",
+		"package",
+		"manipulation",
+		"render",
+		"generate",
+		"graphics",
+		"designing",
+		"artwork",
+		"digital",
+		"rendered",
+		"wrapper",
+		"api",
+		"github",
+		"HarukaYamamoto0"
+	],
+	"author": "HarukaYamamoto0 <harukayamamotodev@gmail.com>",
+	"license": "MIT"
+}
