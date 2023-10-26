@@ -27,7 +27,8 @@ async function grayFilter(imageURL, outputType = "image/png") {
   }
 
   ctx.putImageData(imageData, 0, 0);
-  return createBuffer(canvas, outputType);
+  const buffer = await createBuffer(canvas, outputType);
+  return buffer;
 }
 
 export default grayFilter;

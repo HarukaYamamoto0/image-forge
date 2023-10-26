@@ -4,7 +4,9 @@
   "description": "A powerful tool for creating custom images from templates, automating the graphic design process",
   "main": "src/index.js",
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "test": "vitest watch ."
+  },
   "files": [
     "index.js",
     "package.json",
@@ -42,6 +44,7 @@
     "canvas": "^2.11.2"
   },
   "devDependencies": {
-    "eslint": "^8.51.0"
+    "eslint": "^8.51.0",
+    "vitest": "^0.34.6"
   }
 }
