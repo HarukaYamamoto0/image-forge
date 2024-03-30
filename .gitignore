@@ -1,0 +1,8 @@
+# Folders
+node_modules/
+
+# Not used directly
+.eslintcache
+
+# Test output
+__test__/outupts/
