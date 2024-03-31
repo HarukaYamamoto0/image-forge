@@ -45,19 +45,20 @@ pnpm add image-forge
 All generators are exported using a single `index.js` file, so you can simply destructure just the generator you want using destructuring, without having to import every generator:
 
 ```js
-import { GrayFilter } from "image-forge"
+import { GrayFilter } from "image-forge";
 ```
 
-In the example below we import the `GrayFilter` generator and create the filter passing the path of the image to be processed, and finally we use the `apply` method to generate a `Buffer` of the image with the applied filter, and write it to the file `simpleImage.png`:
+In the example below we import the `GrayFilter` generator and create the filter passing the path of the image to be processed, and finally we use the `apply` method to generate a `Buffer` of the image with the applied filter, and write it to the file `imageOutput.png`:
 
 ```js
-import { GrayFilter } from "image-forge"
+import { GrayFilter } from "image-forge";
 import { writeFileSync } from "node:fs";
 
-const filter = new GrayFilter("./path/to/file.png")
-const imageBuffer = filter.apply()
+const filter = new GrayFilter("./imageInput.png");
+const imageBuffer = await filter.apply();
 
-writeFileSync('./simpleImage.png', imageBuffer);
+await writeFileSync("./imageOutput.png", imageBuffer);
+console.log("Processing completed 🎉");
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
