@@ -11,6 +11,7 @@
 </div>
 
 ### Summary
+
 - [📜 About the package](#about-the-package)
 - [📥 Installation](#installation)
 - [🛠️ Usage](#use)
@@ -20,11 +21,15 @@
 - [👀 License](#license)
 
 <a name="about-the-project"></a>
+
 ### 📜 About the package
+
 Image Forge is a package that simplifies creating images from templates. Used in the Discord bot developer community and meme creation, Image Forge offers an effective and intuitive way to generate filters and memes. With a comprehensive range of features, users can easily customize templates.
 
 <a name="installation"></a>
+
 ### 📥 Installation
+
 Install using your favorite package manager:
 
 ```sh
@@ -41,7 +46,9 @@ pnpm add image-forge
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="usage"></a>
+
 ### 🧐 Usage
+
 All generators are exported using a single `index.js` file, so you can simply destructure just the generator you want using destructuring, without having to import every generator:
 
 ```js
@@ -64,26 +71,32 @@ console.log("Processing completed 🎉");
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="faq"></a>
+
 ### ❓ FAQ
 
 #### Can it read an image from a url?
+
 Yes, because it uses the `@napi-rs/canvas` package to manipulate images
 
 ```js
-const filter = new GrayFilter("https://imgur.com/eBIlPPn.png")
+const filter = new GrayFilter("https://imgur.com/eBIlPPn.png");
 ```
 
-#### How do I export the image to another format?
+<!-- #### How do I export the image to another format?
+
 This is very simple, just pass the format to be exported to the `apply` method:
 
 ```js
-filter.apply({ format: "png" })
+filter.apply({ format: "png" });
 ```
-
+ -->
+ 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="contributing"></a>
+
 ### 🫶 Contributing
+
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -98,6 +111,7 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="license"></a>
+
 ### 👀 License
 
 This project is licensed under the terms of the MIT license. See the [LICENSE](./LICENSE) file for more details.
@@ -105,4 +119,3 @@ This project is licensed under the terms of the MIT license. See the [LICENSE](.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 [object-destructuring]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring
-
