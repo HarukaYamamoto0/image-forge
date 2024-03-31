@@ -9,13 +9,13 @@
 </div>
 
 ## Summary
-- [📜 About the package](#-about-the-package)
-- [📥 Installation](#-installation)
-- [🛠️ Use](#-use)
-- [🧐 Examples](#-examples)
-* [❓ FAQ](#-faq)
-- [🫶 Contributing](#-contributing)
-- [📝 License](#-license)
+- [📜 About the package](#scroll-about-the-package)
+- [📥 Installation](#inbox_tray-installation)
+- [🛠️ Use](#hammer_and_wrench-use)
+- [🧐 Examples](#monocle_face-examples)
+* [⁉️ FAQ](#interrobang-faq)
+- [😍 Contributing](#heart_eyes-contributing)
+- [ License](#-license)
 
 ## 📜 About the package
 
