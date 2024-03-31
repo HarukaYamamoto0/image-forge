@@ -1,12 +1,26 @@
 <div align="center">
   <img src="https://imgur.com/aolsTFs.png" height="150">
   <p>A powerful tool for creating custom images from templates, automating the graphic design process</p>
-  <img alt="GitHub stars" src="https://img.shields.io/github/stars/HarukaYamamoto0/image-forge?color=informational">
-  <img alt="GitHub fork" src="https://img.shields.io/github/forks/HarukaYamamoto0/image-forge?color=informational">
-  <img alt="GitHub license" src="https://img.shields.io/github/license/HarukaYamamoto0/image-forge?color=informational">
+  <img alt="GitHub watchers" src="https://img.shields.io/github/watchers/HarukaYamamoto0/image-forge?style=flat">
+  <img alt="GitHub stars" src="https://img.shields.io/github/stars/HarukaYamamoto0/image-forge?style=flat">
+  <img alt="GitHub fork" src="https://img.shields.io/github/forks/HarukaYamamoto0/image-forge?style=flat">
+  <img alt="Npm Downloads" src="https://img.shields.io/npm/dy/image-forge?style=flat">
+  <img alt="GitHub license" src="https://img.shields.io/github/license/HarukaYamamoto0/image-forge?style=flat">
 </div>
 
-## Installation
+## Summary
+- [📜 About the package](#-about-the-package)
+- [📥 Installation](#-installation)
+- [🛠️ Use](#-use)
+- [🧐 Examples](#-examples)
+* [❓ FAQ](#-faq)
+- [🫶 Contributing](#-contributing)
+- [📝 License](#-license)
+
+## 📜 About the package
+
+
+## 📥 Installation
 You can install it via npm or yarn:
 
 ```bash
@@ -34,9 +48,9 @@ const imageBuffer = filter.apply()
 writeFileSync('./simpleImage.png', imageBuffer);
 ```
 
-### FAQ
+## FAQ
 
-#### Does it throw errors?
+### Does it throw errors?
 
 `jsonforenv` handles errors during the JSON file loading process. If errors occur when reading the file, parsing the JSON, or if the file is not found, the library will throw appropriate errors to inform the user of the problem.
 
@@ -51,7 +65,7 @@ try {
 }
 ```
 
-## Contributing
+## 🫶 Contributing
 Contributions are welcome! Feel free to open issues and submit pull requests to improve this package.
 
 ## 📝 License
