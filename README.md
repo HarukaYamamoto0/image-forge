@@ -17,10 +17,10 @@
 - [Contributing](#Contributing)
 - [License](#License)
 
-## 📜 About the package
+## About the package
 
 
-## 📥 Installation
+## Installation
 You can install it via npm or yarn:
 
 ```bash
@@ -65,9 +65,9 @@ try {
 }
 ```
 
-## 🫶 Contributing
+## Contributing
 Contributions are welcome! Feel free to open issues and submit pull requests to improve this package.
 
-## 📝 License
+## License
 
 This project is under license. See the [LICENSE](./LICENSE) file for more details.
