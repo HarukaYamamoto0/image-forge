@@ -9,13 +9,13 @@
 </div>
 
 ## Summary
-- [About the package](#about%20the%20package)
-- [Installation](#installation)
-- [Use](#use)
-- [Examples](#examples)
-* [FAQ](#faq)
-- [Contributing](#contributing)
-- [License](#license)
+- [About the package](#About%20the%20package)
+- [Installation](#Installation)
+- [Use](#Use)
+- [Examples](#Examples)
+* [FAQ](#FAG)
+- [Contributing](#Contributing)
+- [License](#License)
 
 ## 📜 About the package
 
