@@ -62,7 +62,7 @@ In the example below we import the `GrayFilter` generator and create the filter 
 import { GrayFilter } from "image-forge";
 import { writeFileSync } from "node:fs";
 
-const filter = new GrayFilter("./imageInput.png");
+const filter = new GrayFilter().setSource("./imageInput.png");
 const imageBuffer = await filter.apply();
 
 await writeFileSync("./imageOutput.png", imageBuffer);
@@ -72,7 +72,9 @@ console.log("Processing completed 🎉");
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="action-plan"></a>
+
 ### 🚀 Action plan
+
 - [x] create the because
 - [x] create some base generators
 - [] create good architecture
@@ -91,7 +93,7 @@ console.log("Processing completed 🎉");
 Yes, because it uses the `@napi-rs/canvas` package to manipulate images
 
 ```js
-const filter = new GrayFilter("https://imgur.com/eBIlPPn.png");
+const filter = new GrayFilter().setSource("https://imgur.com/eBIlPPn.png");
 ```
 
 <!-- #### How do I export the image to another format?
