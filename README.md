@@ -15,6 +15,7 @@
 - [📜 About the package](#about-the-package)
 - [📥 Installation](#installation)
 - [🛠️ Usage](#use)
+- [🚀 Action plan](#action-plan)
 - [🧐 Examples](#examples)
 - [❓ FAQ](#fag)
 - [🫶 Contributing](#contributing)
@@ -67,6 +68,17 @@ const imageBuffer = await filter.apply();
 await writeFileSync("./imageOutput.png", imageBuffer);
 console.log("Processing completed 🎉");
 ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<a name="action-plan"></a>
+### 🚀 Action plan
+- [x] create the because
+- [x] create some base generators
+- [] create good architecture
+- [] create documentation for the generators (like discord.js maybe)
+- [] create meme generators
+- [] God only knows
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
