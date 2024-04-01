@@ -1,8 +1,8 @@
 {
   "name": "image-forge",
-  "version": "1.1.1",
-  "description": "A powerful tool for creating custom images from templates, automating the graphic design process",
-  "main": "index.js",
+  "version": "1.1.2",
+  "description": "A powerful tool for creating custom images from templates",
+  "main": "./src/index.js",
   "type": "module",
   "files": [
     "src/"
@@ -26,10 +26,8 @@
     "prettier": "3.2.5"
   },
   "lint-staged": {
-    "*.{js,json}": [
-      "npm run format",
-      "npm run lint"
-    ]
+    "*.{js,json}": "npm run format",
+    "*.js": "npm run lint"
   },
   "config": {
     "commitizen": {
@@ -38,6 +36,16 @@
   },
   "author": "HarukaYamamoto0 <harukayamamotodev@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/HarukaYamamoto0/image-forge",
+  "bugs": {
+    "url": "https://github.com/HarukaYamamoto0/image-forge/issues",
+    "email": "harukayamamotodev@gmail.com"
+  },
+  "funding": "https://www.buymeacoffee.com/harukayamamoto",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarukaYamamoto0/image-forge.git"
+  },
   "keywords": [
     "image",
     "generation",

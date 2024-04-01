@@ -90,7 +90,7 @@ This is very simple, just pass the format to be exported to the `apply` method:
 filter.apply({ format: "png" });
 ```
  -->
- 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <a name="contributing"></a>

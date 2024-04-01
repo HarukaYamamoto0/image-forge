@@ -1,7 +1,7 @@
 import BaseGenerator from "../../structures/BaseGenerator.js";
 import { createCanvas, loadImage } from "@napi-rs/canvas";
 
-class GrayFilter extends BaseGenerator {
+class InfraredFilter extends BaseGenerator {
   constructor() {
     super();
   }
@@ -17,10 +17,17 @@ class GrayFilter extends BaseGenerator {
     const data = imageData.data;
 
     for (let i = 0; i < data.length; i += 4) {
-      const avg = (data[i] + data[i + 1] + data[i + 2]) / 3;
-      data[i] = avg;
-      data[i + 1] = avg;
-      data[i + 2] = avg;
+      const red = data[i];
+      const green = data[i + 1];
+      const blue = data[i + 2];
+
+      data[i] = green;
+      data[i + 1] = red;
+      data[i + 2] = blue * 1.5;
+
+      data[i] *= 1.2;
+      data[i + 1] *= 1.1;
+      data[i + 2] *= 1.3;
     }
 
     ctx.putImageData(imageData, 0, 0);
@@ -29,4 +36,4 @@ class GrayFilter extends BaseGenerator {
   }
 }
 
-export default GrayFilter;
+export default InfraredFilter;
