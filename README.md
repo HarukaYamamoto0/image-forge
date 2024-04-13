@@ -10,6 +10,9 @@
   <img alt="GitHub license" src="https://img.shields.io/github/license/HarukaYamamoto0/image-forge?style=flat&color=red">
 </div>
 
+### ⚠️ Important Warning ⚠️
+[Issue 1](https://github.com/HarukaYamamoto0/image-forge/issues/1)
+
 ### Summary
 
 - [📜 About the package](#about-the-package)

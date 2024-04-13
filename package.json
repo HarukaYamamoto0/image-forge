@@ -1,6 +1,6 @@
 {
   "name": "image-forge",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A powerful tool for creating custom images from templates",
   "main": "./src/index.js",
   "type": "module",
